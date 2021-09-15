@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "proxytools"
+version = "0.1.0"
+description = "Discord proxy bot"
+authors = ["Starshine System <us@starshines.xyz>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+hikari = "^2.0.0-alpha.101"
+asyncpg = "^0.24.0"
+uvloop = "^0.16.0"
+hikari-lightbulb = "^1.2.5"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
